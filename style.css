@@ -60,7 +60,7 @@ video{
 }
 #home{
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(44, 44, 44, 0.863),rgba(44, 44, 44, 0.425)) ,url('images/bg2.png');
+    background-image: linear-gradient(to bottom, rgba(255, 246, 246, 0.863),rgba(255, 246, 246, 0.425)) ,url('images/bg2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -204,4 +204,65 @@ video{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* style for form */
+form{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 30%;
+}
+form label{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+}
+#submitbutton{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(138, 90, 0, 0.856);
+    font-size: x-large;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+
+#submitbutton:hover{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(110, 0, 138, 0.856);
+    font-size: x-large;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+form input{
+    padding: 10px;
+    margin: 10px;
+
+}
+#signupform{
+    height: 80%;
+}
+#loginlink a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(201, 77, 77);
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    font-size: larger;
+
+}
+#loginlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

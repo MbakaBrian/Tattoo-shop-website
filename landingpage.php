@@ -29,7 +29,7 @@
                     <li><a href="#gallary">Gallary</a></li>
                     <li><a href="#findus">Find us</a></li>
                     <li><a href="#contactus">Contact us</a></li>
-                    <li><a href="#">BOOK NOW</a></li>
+                    <li><a href="signup.php">BOOK NOW</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +42,7 @@
         <h2>BATCAVE TATTOOS</h2>
         </div>
         <div id="welcomepage">
-            <a href="#">Get your tattoo now</a>
+            <a href="signup.php">Get your tattoo now</a>
         </div>
         <div id="viewmore">
             <a href="#about">---view more---</a>
@@ -122,27 +122,15 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.769453062719!2d36.07242991410809!3d-0.2835767354325938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18298dc0ed3874ab%3A0x9bf8cd41eb76b5c5!2sBATCAVE%20TATTOOS%2CNAKURU%20KENYA(%2B254722723733))!5e0!3m2!1sen!2ske!4v1655668563945!5m2!1sen!2ske" width="100%" height="430px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>
-<section id="contactus" class="conatiner-fluid bg-dark text-light">
-<h2 class="text-light text-center bg-dark p-0 m-0">Contact us</h2>
-<div class="conatiner-fluid bg-dark" id="conatactus_contents">
-<div>
-    <h5>You can contact us through</h5> <br>
-    <p>Batcave@gmail.com</p>
-    <p>(+254)712345678</p>
-    <p>P.O.Box 2***</p>
-</div>
-<div>
-   <a href="https://www.instagram.com" class="text-white p-2"><i class="bi bi-instagram"></i></a>
-   <a href="https://www.facebook.com" class="text-white p-2"><i class="bi bi-facebook"></i></a>
-    <a href="https://web.whatsapp.com" class="text-white p-2"><i class="bi bi-whatsapp"></i></a> <br><br>
-    <form action="">
-        Leave a message <br>
-        <input type="text">
-    </form>
-</div>
-</div>
-<div class="conatiner-fluid text-center text-light bg-dark"><h6>&copy;Created by Mbaka Brian</h6></div>
-</section>
+text-align: center;
+text-decoration: none;
+color: rgb(255, 255, 255);
+background-color: rgba(110, 0, 138, 0.856);
+font-size: x-large;
+padding: 15px;
+margin: 10px;
+border: 2px solid orange;
+border-radius: 15px;
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
